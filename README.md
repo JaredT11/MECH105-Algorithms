@@ -1,6 +1,7 @@
 # MECH105-Algorithms
 These are the Algorithms that I have created for Mech105 utilizing different numerical methods.
-**Homework 2_Part1**
+
+## Homework 2_Part1
 
 q0 = 10;
 R = 60;
@@ -28,7 +29,7 @@ plot(q2,t);
 subplot(1,1,1);
 
 
-**Homework 2_Part2**
+## Homework 2_Part2
 
 
 t_exp = 10:10:60;
@@ -38,7 +39,7 @@ c_exp = [3.4 2.6 1.6 1.3 1.0 0.5];
 t_func = (0:0.5:70);
 c_func = (4.84*exp(1).^(-0.034*t_func));
 
-**Homework 3**
+## Homework 3
 
 plot(t_func,c_func,'green -');
 plot(t_exp,c_exp,'red d');
@@ -63,7 +64,7 @@ rh = (12.5+(10.5/14)*(h-19));
 
 v = ((19*12.5^(2))*pi+(1/3)*pi*(h-19)*(12.5^(2)+(12.5*rh)+rh^(2)));
 
-**Homework 5**
+## Homework 5
 
 function [A] = specialMatrix(n,m)
 
@@ -80,7 +81,7 @@ end
 
 end
 
-**Homework 6.5**
+## Homework 6.5
 
 function [base2] = binaryConverter(base10)
 %binary A simple function to convert a base10 number to binary
@@ -99,7 +100,7 @@ end
 base2 = flip(base2)
 end
 
-**Homework 11**
+## Homework 11
 
 g = 9.81;
 mu = 0.55;
@@ -116,14 +117,14 @@ plot(g)
 
 angle = 66.81765;
 
-**Homework 17**
+## Homework 17
 
 function [L, U, P] = luFactor(A)
 
 [L, U, P] = lu(A);
 end
 
-**Homework 22**
+## Homework 22
 
 function [I] = Simpson(x, y)
 
