@@ -2,7 +2,7 @@
 These are the Algorithms that I have created for Mech105 utilizing different numerical methods.
 
 ## Homework 2_Part1
-###### Simple Electrical Circuit
+###### *Simple Electrical Circuit*
 
 q0 = 10;
 
@@ -41,7 +41,7 @@ subplot(1,1,1);
 
 ## Homework 2_Part2
 
-###### Degradation of Aqueous Bromide
+###### *Degradation of Aqueous Bromide*
 
 t_exp = 10:10:60;
 
@@ -54,7 +54,7 @@ c_func = (4.84*exp(1).^(-0.034*t_func));
 
 ## Homework 3
 
-###### Decisions
+###### *Decisions*
 
 plot(t_func,c_func,'green -');
 
@@ -93,7 +93,7 @@ v = ((19*12.5^(2))*pi+(1/3)*pi*(h-19)*(12.5^(2)+(12.5*rh)+rh^(2)));
 
 ## Homework 5
 
-###### Matrices
+###### *Matrices*
 
 function [A] = specialMatrix(n,m)
 
@@ -121,7 +121,7 @@ end
 
 ## Homework 6.5
 
-###### Binary Converter
+###### *Binary Converter*
 
 function [base2] = binaryConverter(base10)
 
@@ -153,7 +153,7 @@ end
 
 ## Homework 11
 
-###### Root Finding
+###### *Root Finding*
 
 g = 9.81;
 
@@ -177,7 +177,7 @@ angle = 66.81765;
 
 ## Homework 17 
 
-###### Linear Algebra Algorithm
+###### *Linear Algebra Algorithm*
 
 function [L, U, P] = luFactor(A)
 
@@ -187,7 +187,7 @@ end
 
 ## Homework 22
 
-###### Simpsons 1/3 Algorithm
+###### *Simpsons 1/3 Algorithm*
 
 function [I] = Simpson(x, y)
 
