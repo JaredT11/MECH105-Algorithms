@@ -1,0 +1,21 @@
+###### *Root Finding*
+
+g = 9.81;
+
+mu = 0.55;
+
+F = 150;
+
+m = 25;
+
+x = (66.81765);
+
+format long
+
+A = (mu*m*g)/(cosd(x)+ mu*sind(x));
+
+fprintf('Hello');
+
+plot(g)
+
+angle = 66.81765;
