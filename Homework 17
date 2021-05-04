@@ -1,7 +1,27 @@
-###### *Linear Algebra Algorithm*
+## *Linear Algebra Algorithm*
 
 function [L, U, P] = luFactor(A)
 
 [L, U, P] = lu(A);
 
 end
+
+###### Requirements:
+
+*** Develop a MATLAB function that determines the LU Factorization of a square matrix. Your algorithm must use partial pivoting. *** 
+
+*** For full credit, you must include appropriate error checking. If you are confused about what would be appropriate or have questions, feel free to come to office hours! *** 
+
+** Inputs: **
+
+*** A - coefficient matrix *** 
+
+** Outputs: **
+
+*** L - lower triangular matrix, with 1's along the diagonals *** 
+
+*** U - upper triangular matrix *** 
+
+*** P - the pivot matrix *** 
+
+*** Remember, a correctly solved LU factorization solves for the problem P*A = L*U, which is a good check to make sure your solution is correct. ***
