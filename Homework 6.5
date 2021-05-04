@@ -1,0 +1,29 @@
+###### *Binary Converter*
+
+function [base2] = binaryConverter(base10)
+
+nb = 2;
+
+sum = base10;
+
+reminder = 0;
+
+i = 1;
+
+base2 = 0;
+
+while sum > 0
+
+reminder = mod(sum,nb);
+
+sum = floor(sum./nb);
+
+base2(i) = reminder;
+
+i = i+1;
+
+end
+
+base2 = flip(base2)
+
+end
