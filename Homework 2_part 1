@@ -33,3 +33,11 @@ q2 = q0*exp((-R*t)/(2*L)).*cos(sqrt((1/(L*.0005))-(R/(2*L))^2)*t);
 plot(q2,t);
 
 subplot(1,1,1);
+
+## Requirements:
+
+*** Generate a plot of this function from t = 0 to 0.8 given, q0=10, R=60, L=9, and C=0.00005. 
+
+Create another plot showing the function when the capacitor is 10x greater (C=0.0005).
+
+Use the subplot function to display both plots side by side. Be sure to label your axis appropriately. ***
