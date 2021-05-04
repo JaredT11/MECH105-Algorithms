@@ -21,5 +21,4 @@ These are the Algorithms that I have created for Mech105 utilizing different num
 
 *I have included each and every algorithms from the MatlabGrader into it's own seperate folders. Containing Homework's 2.1 ,2.2 ,3 ,5 ,6.5 ,11 ,17 ,and 22*
 
-*Each file will explain what the Homework problem is asking to solve and the code is what I used to successfully execute those problems!*
-
+*Each file will explain what the Homework requires to solve and the code is what I used to successfully execute those problems!*
