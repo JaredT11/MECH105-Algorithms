@@ -1,0 +1,7 @@
+###### *Linear Algebra Algorithm*
+
+function [L, U, P] = luFactor(A)
+
+[L, U, P] = lu(A);
+
+end
