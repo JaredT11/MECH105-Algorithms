@@ -1,4 +1,4 @@
-###### *Root Finding*
+## *Root Finding*
 
 g = 9.81;
 
@@ -19,3 +19,14 @@ fprintf('Hello');
 plot(g)
 
 angle = 66.81765;
+
+###### Requirements:
+
+*** Use the bisect function in your script file. It is included in Matlab Grader and can be called using ***
+
+*** Where the function inputs and outputs are the same as in the flase position algorithm. ***
+
+*** Finally, your script should include a of fprintf statement(s) which should print out the the value selected as the root,
+how many iterations the method took, what the approximate error is and what f is evaluated at the root. Use the default values of the function when you can. ***
+
+*** Use the bisect function in your script file. It is included in Matlab Grader and can be called using ***
